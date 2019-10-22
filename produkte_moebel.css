@@ -1,0 +1,121 @@
+body {
+	font: 100% Arial, Helvetica, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	color: #000;
+}	
+#holder {
+	background-color: #fcf5e8;
+	width: 55%;
+	margin: 0 auto 0 auto;
+	padding: 0 0 0 1.5%;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+}
+header {
+	-webkit-box-ordinal-group: 2;
+	        order: 1;
+}
+nav.primarynav {
+	
+	        -webkit-box-ordinal-group: 3;
+	         order: 2;
+					
+}
+main {
+	
+	        -webkit-box-ordinal-group: 4;
+	         order: 3;
+}
+footer {
+	
+	        -webkit-box-ordinal-group: 5;
+	         order: 4;
+	         color: #606060;
+}
+.kopfzeile {
+	margin: 0 0 20px 0;
+	display: inline-block;
+}
+header img{
+    border-radius: 15px;
+}
+.produkte {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-width: 2;
+}
+
+h1, h3 {
+	padding: 0 0 0 0.5em;
+	color: #333;
+}
+h1{
+	font-family: 'Sahitya', serif;
+	font-size: 2em;
+	text-shadow: #696969 1px 2px 3px;
+}
+h3 {
+	font-family:'Sahitya', serif;
+	font-size: 1.6em;
+}
+
+
+p.text {
+	font-family: 'Mandali', sans-serif;
+	font-size: 1.2em;
+	line-height: 140%;
+	width: 95%;
+	padding: 0.5em;
+	color: ##696969;
+}
+
+nav ul {
+	font-size: 90%;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+nav li  {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+nav a {
+	padding: 10px;
+	margin: 9px 3px;
+	color: #008080;
+	text-decoration: none;
+	background-color: #dcdcdc;
+	border-radius: 7px;
+}
+nav a:focus, nav a:hover {
+	background-color: #a9a9a9;
+	color: white;
+	font-weight: bold;
+	box-shadow: #666 3px 4px 5px;
+}
+nav a:active {
+	font-size: 1.2em;
+}
+figcaption a {
+	text-decoration: none;
+	color: #000;
+    background-color: #eff5ef;
+	padding: 3px 1px;
+	margin: 3px 0;
+	line-height: 190%;
+	font-weight: bold;
+	border: 1px solid #D3D3D3;
+	border-radius: 6px;
+	
+}
+figcaption a:focus, figcaption a:hover {
+	background-color: #bfd9bf;
+	box-shadow: inset #fff 3px 5px 5px 3px;
+	
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+ <html>
+  <head> 
+   <meta charset="utf-8">
+    <title>Kontakt und Bestellformular</title>
+	<link href="kontakt_moebel.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+  <div id="holder">
+   
+   <main>
+    <section>
+     <h1>Sunshine Gartenmöbel</h1>
+	 <article>
+     <h3>Bestell- und Kontaktformular</h3>
+      <p>Herzlich Willkommen, wir freuen uns, dass Sie sich für unsere  Produkte interessieren!<br>
+      Bitte füllen Sie die nachfolgenden Felder aus und senden uns das Formular zu.<Br>
+      Wir werden uns schnellmöglich bei Ihnen melden.</p>
+	  </article>
+	</section>
+	<section>
+   <br>
+   <form id="form1" name="custom" method="post" action="">
+   <!-- in action soll noch der Name einer Datei auf dem Server zugewiesen werden. -->
+   
+    <fieldset>
+	<legend>Name</legend>
+    <br>
+	<label for="anrede">Anrede</label>
+	  <select name="person" id="anrede">
+	  <option>--Auswählen--</option>
+	   <option>Frau</option>
+	   <option>Herr</option>
+	  </select>
+	<p>
+	 <label for="vorname">
+	 Vorname* <input type="text" name="name" id="vorname">
+	 </label>
+	</p>
+	<p>
+	 <label for="nachname">
+	 Nachname* <input type="text" name="fam_name" id="nachname">
+	</label>
+	</p>
+	</fieldset>
+	
+	<br>
+	<fieldset>
+	<legend>Ihre Kontaktdaten</legend>
+	<br>
+	 <label for="adresse">
+	 Adresse* <input type="text" name="address" id="adresse">
+	</label>
+	<p>
+	 <label for="email">
+	 E-Mail <input type="text" name="mail" id="email">
+	 </label>
+	</p>
+	</fieldset>
+	
+	<br>
+	<fieldset>
+	<legend>Ihre Bestellung</legend>
+	<br>
+	<label for="bestellen">Ich möchte Folgendes bestellen:*</label>
+	 <select name="artikel" id="bestellen">
+	  <option>--Auswählen--</option>
+	  <option>Gartenmöbel "Sofia", je 229,90 €</option>
+	  <option>Gartenmöbel "Anja", je 589,90 €</option>
+	  <option>Gartenmöbel "Skyline, je 899,90 €"</option>
+	  <option>Gartenmöbel "Mia", je 389,90 €</option>
+	 </select>
+	</fieldset>
+	
+	<br>
+	<fieldset>
+	<legend>Zahlungsart</legend>
+	<br>
+	<p>Ich möchte bezahlen*:</p>
+	<p>
+	 <label for="paypal">
+	 per <em>PayPal</em> <input type="radio" name="bezahlen" value="per_paypal" id="paypal">
+	 </label>
+	</p>
+	<p>
+	 <label for="ueberweisung">
+	 per <em>Überweisung</em> <input type="radio" name="bezahlen" value="per_ueberweisung" id="ueberweisung">
+	 </label>
+	</p>
+	<p>
+	 <label for="kreditkarte">
+	 per <em>Kreditkarte</em> <input type="radio" name="bezahlen" value="per_kreditkarte" id="kreditkarte">
+	 </label>
+	</p>
+	</fieldset>
+	
+	<br>
+	<fieldset>
+	<p>
+	  Ich möchte regelmäßig interessante Angebote per
+	</p>
+	<p>
+	 <label for="email">
+	 E-Mail <input type="checkbox" name="mail-info" value="mail" id="email">
+	 </label>
+	 <label for="post">
+	 Post <input type="checkbox" name="post-info" value="brief" id="post"></label>
+	  erhalten.
+	</p>
+	</fieldset>
+	
+	<br>
+	 <p>Felder mit einem * müssen ausgefüllt werden.</p>
+	<br>
+	<p>
+	  <input type="checkbox" name="datenschutz" id="schutz" value="einversanden">
+	 Ich habe die Datenschutzerkärung zur Kenntnis genommen.<br> Ich stimme zu, dass meine Angaben und Daten zur
+	    Beantwortung meiner Anfrage elektonisch erhoben und gespeichert werden.
+	</p>
+	<p>
+	 <input type="submit" name="button" id="sende" value="Senden">
+	</p>
+	</form>
+	
+	<article>
+	 <aside>
+     <br>
+       <p>Wenn Sie Fragen haben oder weitere Informationen   benötigen,<br>
+       sind Ihnen die Mitarbeiter der Firma Sunshine Gartenmöbel gerne behilflich.</p>
+       <p>Sunshine Gartenmöbel<br>
+       Adresse: Gartenberg 1, 11111 Garten<br>
+	   Telefonnummer: (+49)1234-56789<br>
+	   E-Mail: sunshine-gartenmoebel@gmail.com</p>
+    
+       <p>Wieder zur <a href="index.html">Startseite</a></p>
+	 </aside>
+	</article>
+	</section>
+   </main>
+   
+   <header>
+    <h5>Sunshine Gartenmöbel  /  Adresse: Gartenberg 1, 11111 Garten   /  Telefonnummer: (+49)1234-56789  /  Email: sunshine-gartenmoebel@gmail.com</h5>
+     <figure class="kopfzeile">
+	 <a href="index.html"><img src="images/hello_sunshine.png" width="500" height="200" alt="Hello Sunshine"></a>
+     <img src="images/gartenmoebel.jpg" width="500" height="200" alt="Gartenmöbel">
+     </figure>
+   </header>
+   
+   <nav class="primarynav">
+    <ul>
+      <li><a href="produkte.html" target="_blank">Produkte</a></li>
+      <li><a href="mitarbeiter.html" target="_blank">Mitarbeiter</a></li>
+	  <li><a href="index.html" target="_blank">Home</a> >> Bestellung und Kontakt</li>
+    </ul>
+	</nav>
+   
+   <footer>
+   <br>
+   <nav class="seconderynav">
+   <ul>
+     <li><a href="#">Über uns</a></li>
+     <li><a href="#">Impressum</a></li>
+	 <li><a href="#">AGB</a></li>
+	 <!-- zu diesen Buttons soll noch Pfad angegeben werden --> 
+   </ul>	 
+   </nav>
+   <br>
+   <p>&copy; 2019 Sunshine Gartenmöbel</p>
+   </footer>
+  </div>
+  </body>
+ 
+ </html>
